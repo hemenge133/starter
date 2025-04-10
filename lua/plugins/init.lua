@@ -9,6 +9,7 @@ return {
   {
     "neovim/nvim-lspconfig",
     config = function()
+      -- Removed global dashboard config from here
       require "configs.lspconfig"
     end,
   },
@@ -22,4 +23,6 @@ return {
   -- 		},
   -- 	},
   -- },
+
+  -- Removed dashboard-nvim configuration from here
 }
